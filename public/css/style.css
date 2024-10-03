@@ -1,0 +1,150 @@
+
+header div.offcanvas {
+    flex: 1 !important;
+}
+
+header nav div.logo>div {
+    border: none;
+}
+
+header nav #offcanvasWithBothOptions {
+    top: 10px;
+    left: 10px;
+    width: 300px;
+    border-radius: 15px;
+}
+
+header nav #offcanvasWithBothOptions .offcanvas-header {
+    border-radius: 15px 15px 0 0;
+    background-color: rgb(255, 172, 61, 1);
+}
+
+header nav #offcanvasWithBothOptions .offcanvas-body div.navbar-nav {
+    flex-direction: column;
+    align-items: center;
+}
+
+header nav .offcanvas svg {
+    width: 40px;
+    height: 50px;
+    border: 2px solid black;
+    border-radius: 50%;
+}
+
+main #tas-home-section-1 .carousel {
+    display: none;
+}
+
+main #tas-home-section-1 .carousel .carousel-item.active {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+main #tas-home-section-1 .carousel .carousel-control-left:hover {
+    background-color: #ffc107;
+}
+
+main #tas-home-section-1 .carousel .carousel-control-left {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    padding: 5px;
+    border-radius: 50%;
+    background-color: rgba(33, 37, 41, 0.75);
+}
+
+main #tas-home-section-1 .carousel .carousel-control-right {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    padding: 5px;
+    border-radius: 50%;
+    background-color: rgba(33, 37, 41, 0.75);
+}
+
+main #tas-home-section-1 .carousel .carousel-control-right:hover {
+    background-color: #ffc107;
+}
+
+
+main #tas-home-section-1 .carousel svg {
+    width: 25px;
+    height: 25px;
+    color: white;
+}
+
+main #tas-home-section-1 .carousel .card-body a.card-title:hover {
+    color: #ffc107 !important;
+    cursor: pointer;
+}
+
+main #tas-home-section-2 .card:hover {
+    border: #797e81 1px solid !important;
+}
+
+main #tas-home-section-2 .card img {
+    height: 90% !important;
+}
+
+table#products tbody tr {
+    position: relative;
+  }
+  
+  table#products .float-td {
+    display: none;
+    position: absolute; 
+  }
+  
+  table#products tbody tr:hover .float-td {
+    display: flex;
+  }
+  
+  /* table#products .float-div {
+    display: flex;
+  }  */
+  
+
+
+/* --------------for xl(>1200px)--------------- */
+@media screen and (min-width: 1200px) {
+    main #tas-home-section-1 #tas-carousel-xl-4 {
+        display: block;
+    }
+  }
+/* ----------\\\\for xl(>1200px)////----------- */
+
+
+/* --------------for lg(992px-1200px)--------------- */
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+    main #tas-home-section-1 #tas-carousel-lg-3 {
+        display: block;
+    }
+  }
+/* ----------\\\\for lg(992px-1200px)////----------- */
+
+
+/* --------------for md(768px-992px)--------------- */
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    main #tas-home-section-1 #tas-carousel-md-2 {
+        display: block;
+    }
+  }
+/* ----------\\\\for md(768px-992px)////----------- */
+
+
+/* --------------for sm(<768px)--------------- */
+@media screen and (max-width: 768px) {
+    main #tas-home-section-1 #tas-carousel-sm-1 {
+        display: block;
+    }
+
+    main #tas-home-section-1 #tas-carousel-sm-1 .card {
+        width: 100% !important;
+    }
+  }
+/* ----------\\\\for sm(<768px)////----------- */
+
+  
+
+
